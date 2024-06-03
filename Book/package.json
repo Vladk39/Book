@@ -1,0 +1,35 @@
+{
+  "name": "book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup -c --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vladk39/test_rep.git"
+  },
+  "keywords": [
+    "books"
+  ],
+  "author": "Vladk39",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vladk39/test_rep/issues"
+  },
+  "homepage": "https://github.com/Vladk39/test_rep#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.3.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "eslint": "^9.3.0",
+    "globals": "^15.3.0",
+    "rollup": "^4.17.2",
+    "rollup-plugin-import-css": "^3.5.0"
+  },
+  "dependencies": {
+    "on-change": "^5.0.1"
+  }
+}
